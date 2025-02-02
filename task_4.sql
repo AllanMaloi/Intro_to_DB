@@ -1,6 +1,7 @@
 -- Query to print the full description of the books table
 SELECT 
     COLUMN_NAME, 
+    COLUMN_TYPE, 
     DATA_TYPE, 
     IS_NULLABLE, 
     COLUMN_KEY, 
